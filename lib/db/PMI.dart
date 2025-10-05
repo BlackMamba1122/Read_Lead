@@ -1,0 +1,196 @@
+import 'package:Read_Lead/db/topic.dart';
+
+final List<Topic> PMITopics = [
+  Topic(
+    name: "1. Introduction",
+    startPage: 22,
+    subTopics: [
+      Topic(name: "1.1 Project Management", startPage: 23, subTopics: [
+        Topic(name: "1.1.1 Importance of Project Management", startPage: 23),
+        Topic(name: "1.1.2 Foundational Elements", startPage: 25),
+      ]),
+      Topic(name: "1.2 Projects", startPage: 26, subTopics: [
+        Topic(name: "1.2.1 Projects Drive Change", startPage: 26),
+        Topic(name: "1.2.2 Projects Enable Business Value Creation", startPage: 27),
+        Topic(name: "1.2.3 Contexts for Project Initiation", startPage: 28),
+      ]),
+      Topic(name: "1.3 Programs and Program Management", startPage: 30),
+      Topic(name: "1.4 Portfolios and Portfolio Management", startPage: 30),
+      Topic(name: "1.5 Relationship Among Portfolios, Programs, and Projects", startPage: 30),
+      Topic(name: "1.6 Organizational Project Management (OPM)", startPage: 33),
+      Topic(name: "1.7 Project Components and Considerations", startPage: 34, subTopics: [
+        Topic(name: "1.7.1 Project and Development Life Cycles", startPage: 35),
+        Topic(name: "1.7.2 Project Phase", startPage: 37),
+        Topic(name: "1.7.3 Phase Gate", startPage: 39),
+        Topic(name: "1.7.4 Project Management Processes", startPage: 40),
+        Topic(name: "1.7.5 Project Management Process Groups", startPage: 42),
+      ]),
+      Topic(name: "1.8 Project Management Data and Information", startPage: 44),
+      Topic(name: "1.9 Tailoring", startPage: 46),
+      Topic(name: "1.10 Benefits Management and Business Documents", startPage: 48),
+      Topic(name: "1.11 Project Charter, Project Management Plan, and Project Documents", startPage: 52),
+      Topic(name: "1.12 Project Success Measures", startPage: 55),
+    ],
+  ),
+  Topic(
+    name: "2. The Project Environment",
+    startPage: 58,
+    subTopics: [
+      Topic(name: "2.1 Enterprise Environmental Factors", startPage: 59, subTopics: [
+        Topic(name: "2.1.1 EEFs Internal to the Organization", startPage: 59),
+        Topic(name: "2.1.2 EEFs External to the Organization", startPage: 60),
+      ]),
+      Topic(name: "2.2 Organizational Process Assets", startPage: 60, subTopics: [
+        Topic(name: "2.2.1 Plans, Processes, and Documents", startPage: 61),
+        Topic(name: "2.2.2 Organizational Knowledge Repositories", startPage: 63),
+      ]),
+      Topic(name: "2.3 Governance", startPage: 63, subTopics: [
+        Topic(name: "2.3.1 Organizational Governance", startPage: 64),
+        Topic(name: "2.3.2 Project Governance", startPage: 64),
+      ]),
+      Topic(name: "2.4 Management Elements", startPage: 65),
+      Topic(name: "2.5 Organizational Structures", startPage: 66, subTopics: [
+        Topic(name: "2.5.1 Organizational Structure Types", startPage: 67),
+        Topic(name: "2.5.2 Factors in Organizational Structure Selection", startPage: 68),
+      ]),
+      Topic(name: "2.6 Project Management Office", startPage: 69),
+    ],
+  ),
+  Topic(
+    name: "3. Role of the Project Manager",
+    startPage: 72,
+    subTopics: [
+      Topic(name: "3.1 The Project Manager’s Sphere of Influence", startPage: 73, subTopics: [
+        Topic(name: "3.1.1 The Project", startPage: 75),
+        Topic(name: "3.1.2 The Organization", startPage: 76),
+        Topic(name: "3.1.3 The Industry", startPage: 77),
+        Topic(name: "3.1.4 Project Stakeholders", startPage: 78),
+      ]),
+      Topic(name: "3.2 Project Manager Competences", startPage: 79, subTopics: [
+        Topic(name: "3.2.1 Ways of Working", startPage: 80),
+        Topic(name: "3.2.2 Business Acumen", startPage: 80),
+        Topic(name: "3.2.3 Power Skills", startPage: 80),
+      ]),
+      Topic(name: "3.3 Qualities and Skills of a Leader", startPage: 81, subTopics: [
+        Topic(name: "3.3.1 Leadership Styles", startPage: 82),
+        Topic(name: "3.3.2 Leadership Compared to Management", startPage: 83),
+        Topic(name: "3.3.3 Politics, Power, and Getting Things Done", startPage: 84),
+        Topic(name: "3.3.4 Personality", startPage: 86),
+      ]),
+      Topic(name: "3.4 Performing Integration", startPage: 87, subTopics: [
+        Topic(name: "3.4.1 Performing Integration at the Process Level", startPage: 87),
+        Topic(name: "3.4.2 Integration at the Cognitive Level", startPage: 88),
+        Topic(name: "3.4.3 Integration at the Context Level", startPage: 88),
+        Topic(name: "3.4.4 Integration and Complexity", startPage: 88),
+      ]),
+    ],
+  ),
+  Topic(
+    name: "4. Initiating Process Group",
+    startPage: 90,
+    subTopics: [
+      Topic(name: "4.1 Develop Project Charter", startPage: 92),
+      Topic(name: "4.2 Identify Stakeholders", startPage: 94),
+    ],
+  ),
+  Topic(
+    name: "5. Planning Process Group",
+    startPage: 98,
+    subTopics: [
+      Topic(name: "5.1 Develop Project Management Plan", startPage: 99),
+      Topic(name: "5.2 Plan Scope Management", startPage: 102),
+      Topic(name: "5.3 Collect Requirements", startPage: 104),
+      Topic(name: "5.4 Define Scope", startPage: 106),
+      Topic(name: "5.5 Create WBS", startPage: 108),
+      Topic(name: "5.6 Plan Schedule Management", startPage: 110),
+      Topic(name: "5.7 Define Activities", startPage: 111),
+      Topic(name: "5.8 Sequence Activities", startPage: 113),
+      Topic(name: "5.9 Estimate Activity Durations", startPage: 115),
+      Topic(name: "5.10 Develop Schedule", startPage: 118),
+      Topic(name: "5.11 Plan Cost Management", startPage: 120),
+      Topic(name: "5.12 Estimate Costs", startPage: 121),
+      Topic(name: "5.13 Determine Budget", startPage: 124),
+      Topic(name: "5.14 Plan Quality Management", startPage: 126),
+      Topic(name: "5.15 Plan Resource Management", startPage: 128),
+      Topic(name: "5.16 Estimate Activity Resources", startPage: 130),
+      Topic(name: "5.17 Plan Communications Management", startPage: 132),
+      Topic(name: "5.18 Plan Risk Management", startPage: 134),
+      Topic(name: "5.19 Identify Risks", startPage: 136),
+      Topic(name: "5.20 Perform Qualitative Risk Analysis", startPage: 138),
+      Topic(name: "5.21 Perform Quantitative Risk Analysis", startPage: 141),
+      Topic(name: "5.22 Plan Risk Responses", startPage: 143),
+      Topic(name: "5.23 Plan Procurement Management", startPage: 146),
+      Topic(name: "5.24 Plan Stakeholder Engagement", startPage: 150),
+    ],
+  ),
+  Topic(
+    name: "6. Executing Process Group",
+    startPage: 154,
+    subTopics: [
+      Topic(name: "6.1 Direct and Manage Project Work", startPage: 155),
+      Topic(name: "6.2 Manage Project Knowledge", startPage: 158),
+      Topic(name: "6.3 Manage Quality", startPage: 161),
+      Topic(name: "6.4 Acquire Resources", startPage: 164),
+      Topic(name: "6.5 Develop Team", startPage: 166),
+      Topic(name: "6.6 Manage Team", startPage: 171),
+      Topic(name: "6.7 Manage Communications", startPage: 173),
+      Topic(name: "6.8 Implement Risk Responses", startPage: 175),
+      Topic(name: "6.9 Conduct Procurements", startPage: 177),
+      Topic(name: "6.10 Manage Stakeholder Engagement", startPage: 180),
+    ],
+  ),
+  Topic(
+    name: "7. Monitoring and Controlling Process Group",
+    startPage: 182,
+    subTopics: [
+      Topic(name: "7.1 Monitor and Control Project Work", startPage: 183),
+      Topic(name: "7.2 Perform Integrated Change Control", startPage: 186),
+      Topic(name: "7.3 Validate Scope", startPage: 190),
+      Topic(name: "7.4 Control Scope", startPage: 192),
+      Topic(name: "7.5 Control Schedule", startPage: 194),
+      Topic(name: "7.6 Control Costs", startPage: 197),
+      Topic(name: "7.7 Control Quality", startPage: 200),
+      Topic(name: "7.8 Control Resources", startPage: 202),
+      Topic(name: "7.9 Monitor Communications", startPage: 205),
+      Topic(name: "7.10 Monitor Risks", startPage: 207),
+      Topic(name: "7.11 Control Procurements", startPage: 209),
+      Topic(name: "7.12 Monitor Stakeholder Engagement", startPage: 213),
+    ],
+  ),
+  Topic(
+    name: "8. Closing Process Group",
+    startPage: 216,
+    subTopics: [
+      Topic(name: "8.1 Close Project or Phase", startPage: 217),
+    ],
+  ),
+  Topic(
+    name: "9. Inputs and Outputs",
+    startPage: 222,
+  ),
+  Topic(
+    name: "10. Tools and Techniques",
+    startPage: 266,
+  ),
+  Topic(
+    name: "References",
+    startPage: 336,
+  ),
+  Topic(
+    name: "Appendix X1 Contributors and Reviewers of Process Groups: A Practice Guide",
+    startPage: 338,
+    subTopics: [
+      Topic(name: "X1.1 Reviewers", startPage: 338),
+      Topic(name: "X1.2 PMI Staff", startPage: 338),
+    ],
+  ),
+  Topic(
+    name: "Glossary",
+    startPage: 340,
+    subTopics: [
+      Topic(name: "1. Inclusions and Exclusions", startPage: 340),
+      Topic(name: "2. Common Acronyms", startPage: 341),
+      Topic(name: "3. Definitions", startPage: 343),
+    ],
+  ),
+];
