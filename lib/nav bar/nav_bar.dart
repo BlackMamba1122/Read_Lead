@@ -5,6 +5,7 @@ import 'package:Read_Lead/screens/dashboar.dart';
 
 import '../screens/favScreen.dart';
 import '../screens/home_screen.dart';
+import '../screens/process_browser_screen.dart';
 import '../screens/setting.dart';
 
 class NavigationMenu extends StatelessWidget {
@@ -40,6 +41,11 @@ class NavigationMenu extends StatelessWidget {
               backgroundColor: Colors.blueAccent,
               extras: {"label": "profile"},
             ),
+            FluidNavBarIcon(
+              icon: Icons.book,
+              backgroundColor: Colors.blueAccent,
+              extras: {"label": "process"},
+            ),
           ],
           defaultIndex: controller.selectedIndex.value,
           onChange: (index) => controller.selectedIndex.value = index,
@@ -70,6 +76,7 @@ class NavigationController extends GetxController {
     HomeScreen(),
     DashboardScreen(),
     FavouriteBooksScreen(),
+    ProcessBrowserScreen(),
     CreditsScreen(),
   ];
 }
